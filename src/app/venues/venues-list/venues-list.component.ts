@@ -3,8 +3,7 @@ import { VenuesService } from '../venues.service';
 
 @Component({
   selector: 'top-venues-list',
-  templateUrl: './venues-list.component.html',
-  styleUrls: ['./venues-list.component.css']
+  templateUrl: './venues-list.component.html'
 })
 
 export class VenuesListComponent implements OnInit {

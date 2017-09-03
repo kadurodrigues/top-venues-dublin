@@ -1,12 +1,12 @@
-<ul class="venues-list">
-  <li *ngFor="let venues of listVenues" class="venues-list--item">
-    <div [routerLink]="['/detail', venues.venue.id]" class="venues-card">
-      <header class="venues-card--header">
-        <h3 class="venues-card--title">{{venues.venue.name}}</h3>
-        <span class="venues-card--rating">{{venues.venue.rating}}</span>
+<ul class="list">
+  <li *ngFor="let venues of listVenues" class="list-item">
+    <div [routerLink]="['/detail', venues.venue.id]" class="card">
+      <header class="card-header">
+        <h3 class="card-title">{{venues.venue.name}}</h3>
+        <span class="card-rating">{{venues.venue.rating}}</span>
       </header>
-      <p class="venues-card--text">{{venues.venues?.categories[0]?.name}}</p>
-      <p class="venues-card--text">{{venues.venue.location.address}}, {{venues.venue.location.city}}</p>
+      <p class="card-text">{{venues.venue?.categories[0]?.name}}</p>
+      <p class="card-text">{{venues.venue.location.address}}, {{venues.venue.location.city}}</p>
     </div>
   </li>
 </ul>

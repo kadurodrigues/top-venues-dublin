@@ -1,0 +1,14 @@
+/************************************************************************
+* components/header
+************************************************************************/
+
+.header {
+    padding: 20px;
+    background-color: $PRIMARY_COLOR;
+
+    .header-title {
+        font-size: 28px;
+        font-weight: 700;
+        color: #fff;
+    }
+}

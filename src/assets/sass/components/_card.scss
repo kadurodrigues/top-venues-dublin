@@ -1,0 +1,40 @@
+/************************************************************************
+* components/card
+************************************************************************/
+
+.card {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 2px;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(216, 222, 228, .4);
+    cursor: pointer;
+
+    .card-header {
+        display: flex;
+    }
+
+    .card-title {
+        font-size: 18px; 
+        font-weight: 700;
+        color: $PRIMARY_COLOR; 
+    }
+
+    .card-rating {
+        width: 25px;
+        height: 25px;
+        margin-left: auto;
+        font-size: 12px;
+        color: #fff;
+        text-align: center;
+        line-height: 24px;
+        border-radius: 4px;
+        background-color: #04E762;
+    }
+
+    .card-text {
+        padding: 3px 0;
+        font-size: 14px;
+        color: #a7b0bd;
+    }
+}
