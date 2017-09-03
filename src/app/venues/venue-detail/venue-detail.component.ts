@@ -4,8 +4,7 @@ import { VenuesService } from '../venues.service';
 
 @Component({
   selector: 'top-venue-detail',
-  templateUrl: './venue-detail.component.html',
-  styleUrls: ['./venue-detail.component.css']
+  templateUrl: './venue-detail.component.html'
 })
 
 export class VenueDetailComponent implements OnInit {
