@@ -1,0 +1,94 @@
+.venue-detail {
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.venue-detail--header {
+    display: flex;
+}
+
+.venue-detail--header-photo {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.venue-detail--header-photo img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.venue-detail--header-info {
+    margin-left: 20px;
+    font-size: 14px;
+    color: #858e9c;
+}
+
+.venue-detail--header-title {
+    font-size: 24px;
+    color: #00A1E4;
+}
+
+.venue-detail--header-categories {
+    display: flex;
+    list-style: none;
+}
+
+.venue-detail--header-categories li {
+    padding-right: 10px;   
+}
+
+.venue-detail--header-location,
+.venue-detail--header-likes {
+    margin-top: 8px;
+}
+
+.venue-detail--header-rating {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 22px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #04E762;
+}
+
+.venue-datail--decription {
+    padding: 20px 0;
+    font-size: 14px;
+    color: #858e9c;
+}
+
+.venue-detail--content-subtitle {
+    font-size: 18px;
+    color: #333;
+}
+
+.list-comments {
+    list-style: none;
+}
+
+.list-comments-items {
+    padding: 15px 0;
+    border-bottom: 1px dotted #d6dae0;
+}
+
+.list-comments-subtitle {
+    font-size: 14px;
+    color: #727b8a;
+}
+
+.list-commenrs-text {
+    font-size: 14px;
+    color: #858e9c;
+}
+
+.venue-detail--url {
+    display: block;
+    margin-top: 20px;
+    color: #00A1E4;
+}

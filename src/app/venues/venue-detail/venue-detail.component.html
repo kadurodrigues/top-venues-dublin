@@ -1,0 +1,28 @@
+<section class="venue-detail">
+  <header class="venue-detail--header">
+    <div class="venue-detail--header-photo">
+      <img src="{{venue?.bestPhoto?.prefix}}{{venue?.bestPhoto?.width}}x{{venue?.bestPhoto?.height}}{{venue?.bestPhoto?.suffix}}" alt="">
+    </div>
+    <div class="venue-detail--header-info">
+      <h3 class="venue-detail--header-title">{{venue.name}}</h3>
+      <ul class="venue-detail--header-categories">
+        <li *ngFor="let category of venue.categories">{{category.name}}</li>
+      </ul>
+      <p class="venue-detail--header-location">{{venue.location?.address}}</p>
+      <p class="venue-detail--header-likes">Likes: {{venue.likes?.count}}</p>
+    </div>
+    <span class="venue-detail--header-rating">{{venue.rating}}</span>
+  </header> 
+  <div class="venue-detail--content">
+    <p class="venue-datail--decription">{{venue.description}}</p>
+    <h3 class="venue-detail--content-subtitle">Comments:</h3>
+    <ul class="list-comments">
+      <li *ngFor="let phrase of venue.phrases" class="list-comments-items">
+        <h4 class="list-comments-subtitle">{{phrase.phrase}}</h4>
+        <p class="list-commenrs-text">{{phrase.sample.text}}</p>
+      </li>
+    </ul>
+    <a href="{{venue.url}}" target="_blank" class="venue-detail--url">{{venue.url}}</a>
+  </div>
+</section>
+
