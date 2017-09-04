@@ -1,6 +1,6 @@
 <ul class="list">
   <li *ngFor="let venues of listVenues" class="list-item">
-    <div [routerLink]="['/detail', venues.venue.id]" class="card">
+    <div [routerLink]="[venues.venue.name, venues.venue.id]" class="card">
       <header class="card-header">
         <h3 class="card-title">{{venues.venue.name}}</h3>
         <span class="card-rating">{{venues.venue.rating}}</span>

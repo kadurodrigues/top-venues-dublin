@@ -9,7 +9,11 @@
     list-style: none;
 
     .list-item {
-        width: 50%;
+        width: 100%;
         box-sizing: border-box;
+
+        @media only screen and (min-width: $SCREEN_MD_MIN) {
+            width: 50%;
+        }
     }
 }

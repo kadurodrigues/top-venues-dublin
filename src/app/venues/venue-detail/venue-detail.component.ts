@@ -18,6 +18,6 @@ export class VenueDetailComponent implements OnInit {
 
   ngOnInit() {
     this.venuesService.getVenueDetail(this.route.snapshot.params['id'])
-      .subscribe(data => this.venue = data)
+      .subscribe(response => this.venue = response)
   }
 }

@@ -5,5 +5,5 @@ import { VenueDetailComponent } from './venues/venue-detail/venue-detail.compone
 
 export const ROUTES: Routes = [
     { path: '', component: VenuesComponent },
-    { path: 'detail/:id', component: VenueDetailComponent }
+    { path: ':name/:id', component: VenueDetailComponent }
 ]

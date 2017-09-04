@@ -14,6 +14,6 @@ export class VenuesListComponent implements OnInit {
 
   ngOnInit() {
     this.venuesService.getTopVenues()
-      .subscribe(data => this.listVenues = data);
+      .subscribe(response => {this.listVenues = response; console.log(response)});
   }
 }
